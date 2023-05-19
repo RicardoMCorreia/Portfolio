@@ -1,0 +1,22 @@
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 4%;
+    margin-right: 4%;
+    
+}
+
+.nav-bar-list {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-bar-list li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.nav-bar-list li:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,50 @@
+.hero-main-container{
+    margin-top: 120px;
+    margin-left: 20%;
+}
+
+
+.text-and-picture-container {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+
+}
+.hero-text-container{
+    width: 70%;
+}
+
+.hero-title {
+    font-size: 50px;
+    font-family: Arial;
+    margin-bottom: 0;
+    /* color: #ea4c89; */
+}
+
+.hero-picture{
+    width: 300px;
+    height: 250px;
+    border-radius: 100000px;
+    object-fit: cover;
+   
+}
+.tech-stack-container{
+    width: 500px;
+    display: flex;
+    align-items: center;
+   
+
+}
+
+.tech-stack-title {
+    border-right: 1px solid black;
+    padding-right: 15px;
+
+}
+
+
+.icon-container {
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+}
