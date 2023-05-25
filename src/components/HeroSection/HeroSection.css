@@ -22,7 +22,7 @@
 }
 
 .hero-picture{
-    width: 300px;
+    width: 30%;
     height: 250px;
     border-radius: 100000px;
     object-fit: cover;
@@ -61,6 +61,7 @@
     cursor: pointer;
     border: none;
     margin-top: 10px;
+    border-radius: 10px;
 }
 
 .hero-main-container button:hover {

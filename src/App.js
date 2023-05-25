@@ -1,5 +1,6 @@
 
 import './App.css';
+import PersonalProjects from './components/PersonalProjects/PersonalProjects';
 import HeroSection from './components/HeroSection/HeroSection';
 import NavBar from './components/NavBar/NavBar';
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
     <NavBar />
     <HeroSection />
+    <PersonalProjects />
     </div>
   );
 }
