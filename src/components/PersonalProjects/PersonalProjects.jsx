@@ -58,7 +58,7 @@ const PersonalProjects = () => {
             alt="car"
           />
           <div className="projects-text">
-            <h2>RideWise - Car Rental</h2>
+            <h2>Roamify - Traveling Agency</h2>
             <p>
               An interactive platform that offers a wide range of traveling
               services. It allows users to search for their ideal destination

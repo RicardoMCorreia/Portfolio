@@ -8,8 +8,8 @@ const NavBar = () => {
         <h1>Ricardo</h1>
         <ul className="nav-bar-list">
           <li>About</li>
-          <li>Project</li>
-          <li>Curriculum Vitae</li>
+          <li>Projects</li>
+
           <li>Contact</li>
         </ul>
       </div>
