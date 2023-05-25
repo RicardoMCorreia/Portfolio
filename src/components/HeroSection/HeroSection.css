@@ -48,3 +48,22 @@
     gap: 30px;
     margin-left: 50px;
 }
+
+
+.hero-main-container button {
+    width: 150px;
+    height: 40px;
+    
+    background-color:#f55e5e ;
+    color: rgb(228, 237, 248);
+    font-weight: 800;
+    font-size: 11px;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+}
+
+.hero-main-container button:hover {
+  opacity: 85%;
+}
+

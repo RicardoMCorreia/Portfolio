@@ -3,18 +3,27 @@ import "./HeroSection.css";
 import { IoLogoHtml5, IoLogoCss3, IoLogoJavascript } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
-import profilePicture from "../../assets/ProfilePicture.png";
+import CV from "../../assets/CV.pdf";
 
 const HeroSection = () => {
+  const handleDownload = () => {
+    const fileUrl = CV; // Replace with the actual file URL
+    const link = document.createElement("a");
+    link.href = fileUrl;
+    link.download = "Ricardo_Correia_CV.pdf"; // Replace with the desired filename
+    link.click();
+  };
+
   return (
     <div className="hero-main-container">
       <div className="text-and-picture-container">
         <div className="hero-text-container">
-          <h1 className="hero-title">Front-End Developer</h1>
+          <h1 className="hero-title">Web Developer</h1>
           <p>
             My name is Ricardo Correia, and I am a front-end developer based in
             Lisbon, Portugal{" "}
           </p>
+          <button onClick={handleDownload}>DOWNLOAD CV</button>
         </div>
         <img
           className="hero-picture"
